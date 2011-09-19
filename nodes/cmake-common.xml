@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+
+<kickstart>
+
+<description>
+cmake
+http://www.cmake.org
+</description>
+
+<copyright>
+Copyright 2000-2009 Kitware, Inc., Insight Software Consortium
+</copyright>
+
+<changelog>
+</changelog>
+
+<package>cmake</package>
+
+<post>
+</post>
+
+</kickstart>
