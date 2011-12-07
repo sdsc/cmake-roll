@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+
+<kickstart>
+
+<description>
+cmake
+http://www.cmake.org
+</description>
+
+<copyright>
+Copyright 2000-2009 Kitware, Inc., Insight Software Consortium
+</copyright>
+
+<changelog>
+</changelog>
+
+<package>cmake</package>
+
+<post>
+<file name="/etc/profile.d/cmake.csh" perms="0755" >
+set path = ( /opt/cmake/bin $path )
+</file>
+
+<file name="/etc/profile.d/cmake.sh" perms="0755" >
+export PATH=/opt/cmake/bin:$PATH
+</file>
+</post>
+
+</kickstart>

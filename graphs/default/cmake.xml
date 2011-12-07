@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+
+<graph>
+
+<description>
+cmake
+http://www.cmake.org
+</description>
+
+<copyright>
+Copyright 2000-2009 Kitware, Inc., Insight Software Consortium
+</copyright>
+
+<changelog>
+</changelog>
+
+<edge from="base">
+  <to>cmake-common</to>
+</edge>
+<order head="base">
+  <tail>cmake-common</tail>
+</order>
+
+
+<edge from="envmodules-common">
+  <to>cmake-modules-common</to>
+</edge>
+<order head="envmodules-common">
+  <tail>cmake-modules-common</tail>
+</order>
+</graph>

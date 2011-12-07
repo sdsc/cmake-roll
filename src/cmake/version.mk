@@ -1,0 +1,3 @@
+NAME	= cmake
+VERSION	= 2.8.5
+RELEASE	= 1
