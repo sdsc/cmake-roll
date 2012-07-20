@@ -21,11 +21,4 @@ Copyright 2000-2009 Kitware, Inc., Insight Software Consortium
   <tail>cmake-common</tail>
 </order>
 
-
-<edge from="envmodules-common">
-  <to>cmake-modules-common</to>
-</edge>
-<order head="envmodules-common">
-  <tail>cmake-modules-common</tail>
-</order>
 </graph>
