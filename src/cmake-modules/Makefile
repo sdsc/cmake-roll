@@ -54,7 +54,7 @@
 # 
 # @Copyright@
 
-PKGROOT = /opt/modulefiles/applications/cmake
+PKGROOT = /opt/modulefiles/compilers/cmake
 REDHAT.ROOT = $(CURDIR)/../../
 
 -include $(ROCKSROOT)/etc/Rules.mk
