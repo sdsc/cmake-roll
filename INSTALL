@@ -1,0 +1,12 @@
+This roll bundles the cmake build tool.  To install, execute these instructions
+on a Rocks development machine (e.g., a frontend), starting in this directory:
+
+% make
+% rocks add roll *.iso
+% rocks enable roll cmake
+% cd /export/rocks/install
+% rocks create distro
+% rocks run roll cmake | bash
+
+In addition to the software itself, the roll installs cmake environment module
+files in /opt/modulefiles/compilers/cilk.

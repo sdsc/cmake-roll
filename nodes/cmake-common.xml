@@ -16,5 +16,6 @@ Copyright 2000-2009 Kitware, Inc., Insight Software Consortium
 
 <package>cmake</package>
 <package>cmake-modules</package>
+<package>cmake-roll-test</package>
 
 </kickstart>
