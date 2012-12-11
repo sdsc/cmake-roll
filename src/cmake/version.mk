@@ -1,3 +1,3 @@
 NAME	= cmake
 VERSION	= 2.8.10.2
-RELEASE	= 0
+RELEASE	= 1
