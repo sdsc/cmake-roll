@@ -65,7 +65,7 @@ include pull.mk
 build: $(SRC_DIRS)
 	( \
 		cd $(CMAKE_SOURCE_DIR);	\
-		./configure --prefix=$(PKGROOT); \
+		./configure --prefix=$(ROOT)/$(PKGROOT); \
 		$(MAKE); \
 	)
 	@echo "::: Package $(NAME) build complete :::"
@@ -74,7 +74,7 @@ install::
 	mkdir -p -m 755 $(PKGROOT)
 	( \
 		cd $(CMAKE_SOURCE_DIR);	\
-		$(MAKE) prefix=$(PKGROOT) install; \
+		$(MAKE) prefix=$(ROOT)/$(PKGROOT) install; \
 	)
 	@echo "::: Package $(NAME) install complete :::"
 
