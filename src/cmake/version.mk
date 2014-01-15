@@ -1,7 +1,7 @@
 NAME	          = cmake
 VERSION	          = 2.8.10.2
 RELEASE	          = 1
-PKGROOT           = /opt/cmake
+PKGROOT          = /opt/cmake
 
 SRC_SUBDIR        = cmake
 
