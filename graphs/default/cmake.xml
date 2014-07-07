@@ -8,11 +8,9 @@ http://www.cmake.org
 </description>
 
 <copyright>
-Copyright 2000-2009 Kitware, Inc., Insight Software Consortium
+Copyright (c) 2000 - 2014 The Regents of the University of California.
+All rights reserved. Rocks(r) v5.1 www.rocksclusters.org
 </copyright>
-
-<changelog>
-</changelog>
 
 <edge from="base">
   <to>cmake-common</to>

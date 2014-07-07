@@ -70,13 +70,6 @@ the test scripts execute the following command(s):
 
 ```shell
 % /root/rolltests/cmake.t 
-ok 1 # skip not server
-ok 2 - cmake is installed
-ok 3 - Simple cmake run
-ok 4 - cmake module installed
-ok 5 - cmake version module installed
-ok 6 - cmake version module link created
-1..6
 ```
 
 ## License
