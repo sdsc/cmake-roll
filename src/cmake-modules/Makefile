@@ -60,6 +60,9 @@ REDHAT.ROOT = $(CURDIR)/../../
 -include $(ROCKSROOT)/etc/Rules.mk
 include Rules.mk
 
+$(VERSION.MK.INCLUDE):
+	/bin/grep '\<VERSION\>.*=' $(VERSION.MK.MASTER.DIR)/$(VERSION.MK.MASTER) > $@
+
 build:
 
 install::
@@ -71,3 +74,4 @@ install::
 	  ln -s $(PKGROOT)/.version.$(VERSION) $(ROOT)/$(PKGROOT)/.version
 
 clean::
+	/bin/rm -f $(VERSION.MK.INCLUDE)
