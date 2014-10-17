@@ -1,11 +1,12 @@
-# Get the cmake version from its version.mk file. See Makefile
-VERSION.MK.MASTER = version.mk
-VERSION.MK.MASTER.DIR = ../cmake
-VERSION.MK.INCLUDE = cmake.version.mk
-include $(VERSION.MK.INCLUDE)
+PACKAGE     = cmake
+CATEGORY    = compilers
 
-NAME	= cmake-modules
-VERSION	= 3.0.0
-RELEASE	= 0
+NAME        = $(PACKAGE)-modules
+RELEASE     = 0
+PKGROOT     = /opt/modulefiles/$(CATEGORY)/$(PACKAGE)
 
-RPM.EXTRAS         = AutoReq:No
+VERSION_SRC = $(REDHAT.ROOT)/src/$(PACKAGE)/version.mk
+VERSION_INC = version.inc
+include $(VERSION_INC)
+
+RPM.EXTRAS  = AutoReq:No

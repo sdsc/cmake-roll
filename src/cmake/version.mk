@@ -1,16 +1,16 @@
-NAME	          = cmake
-VERSION	          = 3.0.0
-RELEASE	          = 0
-PKGROOT          = /opt/cmake
+NAME	       = cmake
+VERSION	       = 3.0.2
+RELEASE	       = 0
+PKGROOT        = /opt/cmake
 
-SRC_SUBDIR        = cmake
+SRC_SUBDIR     = cmake
 
-CMAKE_NAME        = $(NAME)
-CMAKE_VERSION     = $(VERSION)
-CMAKE_PKG_SUFFIX  = tar.gz
-CMAKE_SOURCE_PKG  = $(CMAKE_NAME)-$(CMAKE_VERSION).$(CMAKE_PKG_SUFFIX)
-CMAKE_SOURCE_DIR  = $(CMAKE_SOURCE_PKG:%.$(CMAKE_PKG_SUFFIX)=%)
+SOURCE_NAME    = $(NAME)
+SOURCE_SUFFIX  = tar.gz
+SOURCE_VERSION = $(VERSION)
+SOURCE_PKG     = $(SOURCE_NAME)-$(SOURCE_VERSION).$(SOURCE_SUFFIX)
+SOURCE_DIR     = $(SOURCE_PKG:%.$(SOURCE_SUFFIX)=%)
 
-TAR_GZ_PKGS     = $(CMAKE_SOURCE_PKG)
+TAR_GZ_PKGS    = $(SOURCE_PKG)
 
-RPM.EXTRAS         = AutoReq:No
+RPM.EXTRAS     = AutoReq:No
