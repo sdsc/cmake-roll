@@ -1,2 +1,5 @@
 #%Module1.0
+module-whatis "cmake build system"
+module-whatis "Version: VERSION"
+setenv CMAKEHOME /opt/cmake
 prepend-path PATH /opt/cmake/bin
