@@ -73,11 +73,10 @@ DESCRIPTION:
 	) > $@
 
 LICENSE: $(SRC_DIRS)
-	if grep -q 'BSD 3-Clause' $(LICENSE_FILES); then \
-	  echo BSD > $@; \
-	else \
+	if ! grep -q 'BSD 3-Clause' $(LICENSE_FILES); then \
 	  exit 2; \
 	fi
+	echo BSD > $@
 
 build: $(SRC_DIRS)
 	( \
