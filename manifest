@@ -1,4 +1,4 @@
-cmake
-cmake-modules
-cmake-roll-test
+sdsc-cmake
+sdsc-cmake-modules
+sdsc-cmake-roll-test
 roll-cmake-kickstart
