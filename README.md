@@ -48,6 +48,7 @@ frontend before continuing with installation.
 To install, execute these instructions on a Rocks frontend:
 
 ```shell
+% rocks add roll *.iso
 % rocks enable roll cmake
 % cd /export/rocks/install
 % rocks create distro
