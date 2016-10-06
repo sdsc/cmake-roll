@@ -1,5 +1,7 @@
 #%Module1.0
-module-whatis "cmake build system"
+module-whatis "Name: cmake"
 module-whatis "Version: VERSION"
+module-whatis "Description: open-source build system"
+module-whatis "URL: http://www.cmake.org"
 setenv CMAKEHOME /opt/cmake
 prepend-path PATH /opt/cmake/bin
