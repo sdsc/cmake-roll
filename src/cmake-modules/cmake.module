@@ -1,6 +1,7 @@
 #%Module1.0
 module-whatis "Name: cmake"
 module-whatis "Version: VERSION"
+module-whatis "Category: System"
 module-whatis "Description: open-source build system"
 module-whatis "URL: http://www.cmake.org"
 setenv CMAKEHOME /opt/cmake
