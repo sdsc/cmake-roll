@@ -1,5 +1,5 @@
 NAME	       = sdsc-cmake
-VERSION	       = 3.3.2
+VERSION	       = 3.8.2
 RELEASE	       = 0
 PKGROOT        = /opt/cmake
 
