@@ -1,6 +1,6 @@
-NAME	       = sdsc-cmake
-VERSION	       = 3.9.1
-RELEASE	       = 0
+NAME           = sdsc-cmake
+VERSION        = 3.9.1
+RELEASE        = 1
 PKGROOT        = /opt/cmake
 
 SRC_SUBDIR     = cmake
@@ -14,3 +14,4 @@ SOURCE_DIR     = $(SOURCE_PKG:%.$(SOURCE_SUFFIX)=%)
 TAR_GZ_PKGS    = $(SOURCE_PKG)
 
 RPM.EXTRAS     = AutoReq:No
+RPM.PREFIX     = $(PKGROOT)
