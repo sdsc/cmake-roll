@@ -25,6 +25,8 @@ development machine.
 
 ## Dependencies
 
+yum install libmpc mpfr
+
 The sdsc-roll must be installed on the build machine, since the build process
 depends on make include files provided by that roll.
 
@@ -35,6 +37,7 @@ To build the cmake-roll, execute this on a Rocks development
 machine (e.g., a frontend or development appliance):
 
 ```shell
+% ./bootstrap.sh
 % make 2>&1 | tee build.log
 ```
 
