@@ -1,6 +1,6 @@
 NAME           = sdsc-cmake
-VERSION        = 3.9.1
-RELEASE        = 1
+VERSION        = 3.12.1
+RELEASE        = 0
 PKGROOT        = /opt/cmake
 
 SRC_SUBDIR     = cmake
